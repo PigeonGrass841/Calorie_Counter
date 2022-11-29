@@ -143,7 +143,7 @@ aFatsMinus.onclick = function() {
     mFats = calcGrams(aFats, eFats, dFats);
     aCalories = calcCalories(aProteins, aCarbohydrates, aFats);
     mCalories = calcCalories(mProteins, mCarbohydrates, mFats);
-    display("aCarbohydrates", aCarbohydrates);
+    display("aFats", aFats);
     display("aCalories", aCalories);
     display("mCalories", mCalories);
 }
@@ -215,7 +215,7 @@ eFatsMinus.onclick = function() {
     mFats = calcGrams(aFats, eFats, dFats);
     eCalories = calcCalories(eProteins, eCarbohydrates, eFats);
     mCalories = calcCalories(mProteins, mCarbohydrates, mFats);
-    display("eCarbohydrates", eCarbohydrates);
+    display("eFats", eFats);
     display("eCalories", eCalories);
     display("mCalories", mCalories);
 }
@@ -287,7 +287,7 @@ dFatsMinus.onclick = function() {
     mFats = calcGrams(aFats, eFats, dFats);
     dCalories = calcCalories(dProteins, dCarbohydrates, dFats);
     mCalories = calcCalories(mProteins, mCarbohydrates, mFats);
-    display("dCarbohydrates", dCarbohydrates);
+    display("dFats", dFats);
     display("dCalories", dCalories);
     display("mCalories", mCalories);
 }
