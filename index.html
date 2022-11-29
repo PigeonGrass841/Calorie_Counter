@@ -10,7 +10,7 @@
     <script src="script.js"></script>
 </head>
     
-<body>
+<body onload = "initialize();">
     <!--Title-->
     <h1>Calorie Counter</h1>
     <div>
@@ -19,9 +19,9 @@
         <!--Displays the total number of PROTEINS for the APPETIZER-->
         <div>
             <h3>Protein</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "aProteins"></p>
+            <button id = "aProteinsPlus"></button>
+            <button id = "aProteinsMinus"></button>
         </div>
         <!--Displays the total number of CARBOHYDRATES for the APPETIZER-->
         <div>
@@ -40,6 +40,7 @@
         <!--Displays the total number of CALORIES for the APPETIZER-->
         <div>
             <h3>Total Calories</h3>
+            <p id = "aCalories"></p>
         </div>
     </div>
     <!--Displays the total number of GRAMS and CALORIES for the ENTRÉE-->
@@ -98,6 +99,7 @@
         <!--Displays the total number of CALORIES for the DESSERT-->
         <div>
             <h3>Total Calories</h3>
+            <p id = "mCalories"></p>
         </div>
     </div>
 </body>
