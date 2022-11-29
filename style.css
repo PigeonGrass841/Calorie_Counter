@@ -1,3 +1,4 @@
+/* Cheng Han Hsieh, Web Development Section 86 Period 7 and 8, 11/16/2022, Calorie Counter */
 /* Sets the style of the entire page */
 * {
     background-color: floralwhite;
@@ -6,6 +7,7 @@
     text-align: center;
 }
 
+/* Sets the style of the div */
 div {
     display: flex;
     flex-direction: row;
@@ -13,6 +15,7 @@ div {
     padding: 30px;
 }
 
+/* Sets the style of the div */
 div div {
     background-color: lemonchiffon;
     display: flex;
@@ -20,6 +23,7 @@ div div {
     align-items: center;
 }
 
+/* Sets the style of the div */
 div div div {
     display: flex;
     flex-direction: row;

@@ -1,3 +1,4 @@
+// Cheng Han Hsieh, Web Development Section 86 Period 7 and 8, 11/16/2022, Calorie Counter
 // Initalizes the variables which represent the total number of grams or calories in the:
 // (*mProteins, mCarbohydrates, and mFats are not shown to the user and are used to calculate mCalories)
 // a: Appetizer
