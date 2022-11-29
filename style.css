@@ -1,10 +1,12 @@
+/* Sets the style of the entire page */
 * {
     background-color: floralwhite;
     font-family: "Javanese Text";
     text-align: center;
 }
 
-button {
+/* Sets the style of the button */
+#aProteinsPlus {
     background-color: honeydew;
     border-color: lavender;
     color: orchid;
@@ -15,7 +17,20 @@ button {
     text-transform: uppercase;
 }
 
-#placeholder {
+/* Sets the style of the button */
+#aProteinsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the placeholder */
+#aProteins {
     background-color: cornsilk;
     width: 125px;
     padding: 50px;
@@ -25,4 +40,27 @@ button {
     border-radius: 5px;
     font-size: 40px;
 }
-    
+
+/* Sets the style of the placeholder */
+#aCalories {
+    background-color: cornsilk;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the placeholder */
+#mCalories {
+    background-color: cornsilk;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
