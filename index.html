@@ -7,35 +7,34 @@
     <title>Calorie Counter</title>
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="script.js"></script>
 </head>
     
 <body onload = "initialize();">
     <!--Title-->
     <h1>Calorie Counter</h1>
+    <!--Displays the total number of GRAMS and CALORIES for the APPETIZER-->
+    <h2>Appetizer</h2>
     <div>
-        <!--Displays the total number of GRAMS and CALORIES for the APPETIZER-->
-        <h2>Appetizer</h2>
         <!--Displays the total number of PROTEINS for the APPETIZER-->
         <div>
             <h3>Protein</h3>
             <p id = "aProteins"></p>
-            <button id = "aProteinsPlus"></button>
-            <button id = "aProteinsMinus"></button>
+            <button id = "aProteinsPlus">+ 1</button>
+            <button id = "aProteinsMinus">- 1</button>
         </div>
         <!--Displays the total number of CARBOHYDRATES for the APPETIZER-->
         <div>
             <h3>Carbohydrates</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "aCarbohydrates"></p>
+            <button id = "aCarbohydratesPlus">+ 1</button>
+            <button id = "aCarbohydratesMinus">- 1</button>
         </div>
         <!--Displays the total number of FATS for the APPETIZER-->
         <div>
             <h3>Fats</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "aFats"></p>
+            <button id = "aFatsPlus">+ 1</button>
+            <button id = "aFatsMinus">- 1</button>
         </div>
         <!--Displays the total number of CALORIES for the APPETIZER-->
         <div>
@@ -44,63 +43,74 @@
         </div>
     </div>
     <!--Displays the total number of GRAMS and CALORIES for the ENTRÉE-->
+    <h2>Entrée</h2>
     <div>
-        <h2>AEntrée</h2>
         <!--Displays the total number of PROTEINS for the ENTRÉE-->
         <div>
             <h3>Protein</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "eProteins"></p>
+            <button id = "eProteinsPlus">+ 1</button>
+            <button id = "eProteinsMinus">- 1</button>
         </div>
         <!--Displays the total number of CARBOHYDRATES for the ENTRÉE-->
         <div>
             <h3>Carbohydrates</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "eCarbohydrates"></p>
+            <button id = "eCarbohydratesPlus">+ 1</button>
+            <button id = "eCarbohydratesMinus">- 1</button>
         </div>
         <!--Displays the total number of FATS for the ENTRÉE-->
         <div>
             <h3>Fats</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "eFats"></p>
+            <button id = "eFatsPlus">+ 1</button>
+            <button id = "eFatsMinus">- 1</button>
         </div>
         <!--Displays the total number of CALORIES for the ENTRÉE-->
         <div>
             <h3>Total Calories</h3>
+            <p id = "eCalories"></p>
         </div>
     </div>
-    <!--Displays the total number of GRAMS and CALORIES for the DESSERTS-->
+    <!--Displays the total number of GRAMS and CALORIES for the DESSERT-->
+    <h2>Dessert</h2>
     <div>
-        <h2>Dessert</h2>
         <!--Displays the total number of PROTEINS for the DESSERT-->
         <div>
             <h3>Protein</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "dProteins"></p>
+            <button id = "dProteinsPlus">+ 1</button>
+            <button id = "dProteinsMinus">- 1</button>
         </div>
         <!--Displays the total number of CARBOHYDRATES for the DESSERT-->
         <div>
             <h3>Carbohydrates</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "dCarbohydrates"></p>
+            <button id = "dCarbohydratesPlus">+ 1</button>
+            <button id = "dCarbohydratesMinus">- 1</button>
         </div>
         <!--Displays the total number of FATS for the DESSERT-->
         <div>
             <h3>Fats</h3>
-            <p></p>
-            <button></button>
-            <button></button>
+            <p id = "dFats"></p>
+            <button id = "dFatsPlus">+ 1</button>
+            <button id = "dFatsMinus">- 1</button>
         </div>
         <!--Displays the total number of CALORIES for the DESSERT-->
+        <div>
+            <h3>Total Calories</h3>
+            <p id = "dCalories"></p>
+        </div>
+    </div>
+    <!--Displays the total number of CALORIES for the MEAL-->
+    <h2>Total Number of Calories</h2>
+    <div>
+            <!--Displays the total number of CALORIES for the MEAL-->
         <div>
             <h3>Total Calories</h3>
             <p id = "mCalories"></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

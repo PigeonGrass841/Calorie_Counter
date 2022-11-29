@@ -2,7 +2,41 @@
 * {
     background-color: floralwhite;
     font-family: "Javanese Text";
+    font-weight: bold;
     text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+div div {
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Sets the style of the placeholder */
+#aProteins {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
 }
 
 /* Sets the style of the button */
@@ -30,24 +64,329 @@
 }
 
 /* Sets the style of the placeholder */
-#aProteins {
+#aCarbohydrates {
     background-color: cornsilk;
+    color: orchid;
     width: 125px;
     padding: 50px;
     margin: 25px;
-    aspect-ratio 1 / 1;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#aCarbohydratesPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#aCarbohydratesMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+#aFats {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#aFatsPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#aFatsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+/* Sets the style of the placeholder */
+#aCalories {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
     border: 1px solid beige;
     border-radius: 5px;
     font-size: 40px;
 }
 
 /* Sets the style of the placeholder */
-#aCalories {
+#eProteins {
     background-color: cornsilk;
+    color: orchid;
     width: 125px;
     padding: 50px;
     margin: 25px;
-    aspect-ratio 1 / 1;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#eProteinsPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#eProteinsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the placeholder */
+#eCarbohydrates {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#eCarbohydratesPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#eCarbohydratesMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+#eFats {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#eFatsPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#eFatsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+/* Sets the style of the placeholder */
+#eCalories {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the placeholder */
+#dProteins {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#dProteinsPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#dProteinsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the placeholder */
+#dCarbohydrates {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#dCarbohydratesPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#dCarbohydratesMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+#dFats {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Sets the style of the button */
+#dFatsPlus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+
+/* Sets the style of the button */
+#dFatsMinus {
+    background-color: honeydew;
+    border-color: lavender;
+    color: orchid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    text-transform: uppercase;
+}
+/* Sets the style of the placeholder */
+#dCalories {
+    background-color: cornsilk;
+    color: orchid;
+    width: 125px;
+    padding: 50px;
+    margin: 25px;
+    aspect-ratio: 1 / 1;
     border: 1px solid beige;
     border-radius: 5px;
     font-size: 40px;
@@ -56,10 +395,11 @@
 /* Sets the style of the placeholder */
 #mCalories {
     background-color: cornsilk;
+    color: orchid;
     width: 125px;
     padding: 50px;
     margin: 25px;
-    aspect-ratio 1 / 1;
+    aspect-ratio: 1 / 1;
     border: 1px solid beige;
     border-radius: 5px;
     font-size: 40px;
